@@ -1,5 +1,6 @@
 {
 	"name": "tshell",
 	"description": "A command shell interpreter",
-	"type": "application"
+	"type": "application",
+	"entrypoint": "tshell.t"
 }
