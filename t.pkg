@@ -1,4 +1,5 @@
 {
 	"name": "tshell",
-	"description": "A command shell interpreter"
+	"description": "A command shell interpreter",
+	"type": "application"
 }
