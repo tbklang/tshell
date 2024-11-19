@@ -1,3 +1,4 @@
 {
-	"name": "tshell"
+	"name": "tshell",
+	"description": "A command shell interpreter"
 }
