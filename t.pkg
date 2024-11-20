@@ -3,4 +3,3 @@
 	"description": "A command shell interpreter",
 	"type": "application",
 	"entrypoint": "tshell.t"
-}
