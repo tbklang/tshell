@@ -1,4 +1,4 @@
-module dir.utils;
+module utils;
 
 void test()
 {
