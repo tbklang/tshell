@@ -4,6 +4,6 @@ import dir.utils;
 
 int main()
 {
-	test();
+	dir.utils.test();
 	return 0;
 }
