@@ -1,6 +1,0 @@
-module utils;
-
-void bruh()
-{
-	
-}
