@@ -2,5 +2,6 @@
 	"name": "tshell",
 	"description": "A command shell interpreter",
 	"type": "application",
-	"entrypoint": "tshell.t"
+	"entrypoint": "tshell.t",
+	"dependencies": ["core"]
 }
