@@ -1,0 +1,6 @@
+module utils;
+
+void bruh()
+{
+	
+}
