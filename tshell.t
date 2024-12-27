@@ -1,7 +1,7 @@
 module tshell;
 
 import dir.utils;
-import core.io;
+import io;
 
 int main()
 {
