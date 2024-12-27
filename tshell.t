@@ -5,6 +5,7 @@ import core.io;
 
 int main()
 {
+	io.testFunction();
 	utils.test();
 	return 0;
 }
