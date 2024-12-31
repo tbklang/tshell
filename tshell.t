@@ -7,5 +7,7 @@ int main()
 {
 	io.testFunction();
 	utils.test();
-	return 0;
+
+	
+	return io.v_open("/dev/stdout");
 }
