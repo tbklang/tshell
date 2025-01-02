@@ -3,5 +3,10 @@
 	"description": "A command shell interpreter",
 	"type": "application",
 	"entrypoint": "tshell.t",
-	"dependencies": ["core"]
+	"dependencies": ["core"],
+
+	"build":
+	{
+		"output": "tshell"
+	}
 }
