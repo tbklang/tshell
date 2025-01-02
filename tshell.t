@@ -2,16 +2,16 @@ module tshell;
 
 import dir.utils;
 import core.io;
-import core.mem;
+import core.memory;
 
 int main()
 {
 	io.testFunction();
 	utils.test();
 
-	ubyte* m = mem.allocate(20);
+	ubyte* m = memory.allocate(20);
   *m = 0;
-	mem.deallocate(m);
+	memory.deallocate(m);
 
 	ubyte[10] filePath;
 	filePath[0] = 65;
