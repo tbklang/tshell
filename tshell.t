@@ -10,7 +10,7 @@ int main()
 	utils.test();
 
 	ubyte* m = mem.allocate(20);
-	if(m != 0)
+	if(!(m == 0)
 	{
 		*m = 0;
 		mem.deallocate(m);
