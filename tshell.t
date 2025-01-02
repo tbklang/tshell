@@ -10,11 +10,8 @@ int main()
 	utils.test();
 
 	ubyte* m = mem.allocate(20);
-	if (m != 0)
-	{
-		*m = 0;
-		mem.deallocate(m);
-	}
+  *m = 0;
+	mem.deallocate(m);
 
 	ubyte[10] filePath;
 	filePath[0] = 65;
