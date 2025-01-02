@@ -4,6 +4,9 @@ import dir.utils;
 import core.io;
 import core.memory;
 
+/**
+ * My main method
+ */
 int main()
 {
 	io.testFunction();
