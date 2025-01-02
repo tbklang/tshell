@@ -9,9 +9,10 @@ int main()
 	io.testFunction();
 	utils.test();
 
+	// allocate some memory
 	ubyte* m = memory.allocate(20);
-  *m = 0;
-	memory.deallocate(m);
+  *m = 0; // do something with it
+	memory.deallocate(m); // de-allocate it
 
 	ubyte[10] filePath;
 	filePath[0] = 65;
