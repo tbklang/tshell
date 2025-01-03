@@ -3,6 +3,7 @@ module tshell;
 import dir.utils;
 import core.io;
 import core.memory;
+import core.string;
 
 ubyte* outputPath;
 
@@ -33,7 +34,7 @@ int main()
 	int fd = io.v_open(outputPath, 2);
 
 	// TODO: Add check for `fd`
-	io.v_write(fd, msg, 23);
+	io.v_write(fd, msg, string.strlen(msg));
 	
 	return io.v_close(fd);
 }
