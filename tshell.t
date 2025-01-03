@@ -30,7 +30,7 @@ int main()
 
 
 	ubyte* msg = "Hello world from tshell";
-	int fd = io.v_open(outputPath);
+	int fd = io.v_open(outputPath, 2);
 
 	// TODO: Add check for `fd`
 	io.v_write(fd, msg, 23);
