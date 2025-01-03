@@ -4,11 +4,15 @@ import dir.utils;
 import core.io;
 import core.memory;
 
+ubyte* outputPath;
+
 /**
  * My main method
  */
 int main()
 {
+	outputPath = "/dev/stdout";
+	
 	io.testFunction();
 	utils.test();
 
