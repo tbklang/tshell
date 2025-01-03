@@ -27,5 +27,13 @@ int main()
 	filePath[2] = 66;
 	filePath[3] = 65;
 	filePath[4] = 0;
-	return io.v_open(outputPath);
+
+
+	ubyte* msg = "Hello world from tshell";
+	int fd = io.v_open(outputPath);
+
+	// TODO: Add check for `fd`
+	io.v_write(fd, msg, 23);
+	
+	return io.v_close(fd);
 }
