@@ -30,7 +30,7 @@ int main()
 	filePath[4] = 0;
 
 
-	ubyte* msg = "Hello world from tshell";
+	ubyte* msg = "Welcome to tshell!";
 	int fd = io.v_open(outputPath, 2);
 
 	// TODO: Add check for `fd`
